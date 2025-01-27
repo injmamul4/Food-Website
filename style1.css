@@ -1,0 +1,488 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'tapestry', cursive;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(41, 40, 40);
+    overflow-x: hidden;
+    width: 100%;
+    min-height: 100vh;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+header.main {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.main2 {
+    color: rgb(247, 82, 22);
+    font-size: 24px;
+}
+
+.navbar {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: aquamarine;
+}
+
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    text-align: center;
+    padding: 100px 20px;
+    min-height: 100vh;
+}
+
+#home h1 {
+    font-size: 2.3rem;
+    color: orangered;
+}
+
+#home h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+button {
+    border-radius: 13px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: orangered;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+
+ section {
+            padding: 50px 20px;
+        }
+
+        .img img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+           
+        }
+
+        .heading {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+ 
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    color: #fff;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.img2 img {
+    max-width: 100%;
+    height: auto;
+   
+    
+}
+
+.about2 {
+    max-width: 600px;
+    padding: 20px;
+}
+
+.about2 h4 {
+    color: orangered;
+    margin-bottom: 10px;
+}
+
+.about2 h2 {
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.about2 p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+button {
+    background-color: orangered;
+    color: white;
+    
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+
+.heading{
+    color: aliceblue;
+    text-align: center;
+    padding-top: -10%;
+    position: relative;
+    top: 130px;
+}
+
+.chiken{
+    position: relative;
+    margin: 10px;
+    top: 150px;
+    border-radius: 35px;
+    background-color: rgb(219, 220, 221);
+    display: inline-block;
+    text-align: center;
+    width: 320px;
+    height: 400px;
+    z-index: -1;
+}
+
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+h2, h4, h5 {
+    margin: 5px 0;
+}
+
+h3{
+    color: orangered;
+    font-size: 24px;
+}
+
+#service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.order {
+    position: relative;
+    top: 120px;
+    border-radius: 8px;
+    width: 800%;
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.order img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+ img{
+    z-index: -1;
+}
+
+.mode {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 120px;
+    max-width: 90%;
+    height: auto;
+    padding: 40px;
+    border-radius: 40px;
+    background-color: rgb(199, 203, 203);
+    color: rgb(78, 75, 75);
+    font-size: 1rem;
+    text-align: center;
+    z-index: -1;
+  }
+  
+  .mode h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .mode button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .mode button:hover {
+    background-color: orange;
+  }
+  #contact {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact {
+    position: relative;
+    top: 50px;
+    color: white;
+    padding: 100px;
+    border-radius: 8px;
+}
+
+.contact > a {
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+    display: block;
+}
+
+.contact a:hover {
+    color: aqua;
+}
+
+
+.over {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr !important;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+    gap: 15px;
+    font-size: 45px;
+    color: orangered;
+    width: 10%;
+    padding-bottom: 59px;
+    text-align: center;
+}
+.over a {
+    color: orangered;
+    text-decoration: none;
+}
+
+.over a:hover {
+    color: aquamarine;
+}
+
+
+@media (min-width: 800px) {
+    .navbar {
+        gap: 15px;
+    }
+
+    #home {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .img img {
+        max-width: 500px;
+        padding-left: 100px;
+    }
+
+}
+
+@media (min-width: 800px) {
+
+    /* .navbar {
+        display: flex;
+        width: 100%;
+        gap: 15px;
+    }
+    
+    .navbar a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .navbar a:hover {
+        color: aquamarine;
+    } */
+
+    .content {
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .img2 img{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 50px;
+    }
+
+    .about2 {
+        flex: 1;
+        text-align: left;
+        width: 350px;
+    }
+}
+
+
+    @media (max-width: 800px) {
+        .chiken {
+            width: 100%;
+            height: auto;
+            padding: 20px;
+        }
+    
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .order {
+            max-width: 90%;
+        }
+    }
+  
+    @media (max-width: 480px) {
+        .order {
+            padding: 15px;
+        }
+  
+        #service {
+            padding: 10px;
+        }
+    }
+
+        @media (max-width: 800px) {
+            .mode {
+              top: 100px;
+              padding: 30px;
+            }
+          
+            .mode h1 {
+              font-size: 1.8rem;
+            }
+          
+            .mode button {
+              font-size: 0.9rem;
+              padding: 8px 16px;
+            }
+          }
+          
+          @media (max-width: 768px) {
+            .mode {
+              top: 80px;
+              padding: 20px;
+            }
+          
+            .mode h1 {
+              font-size: 1.5rem;
+            }
+          
+            .mode button {
+              font-size: 0.8rem;
+              padding: 6px 12px;
+            }
+          }
+          
+          @media (max-width: 480px) {
+            .mode {
+              top: 50px;
+              padding: 15px;
+            }
+          
+            .mode h1 {
+              font-size: 1.2rem;
+            }
+          
+            .mode button {
+              font-size: 0.7rem;
+              padding: 5px 10px;
+            }
+          }
+
+        @media (max-width: 768px) {
+            #contact {
+                grid-template-columns: 1fr;
+                padding: 10px;
+            }
+        
+            .contact {
+                padding: 15px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .contact h1 {
+                font-size: 1.2rem;
+            }
+        
+            .contact > a {
+                font-size: 0.9rem;
+            }
+        }
+            @media (max-width: 768px) {
+                .over {
+                    grid-template-columns: repeat( 1fr);
+                    font-size: 35px;
+                    gap: 10px;
+                    top: 150px;
+                    width: 90%;
+                }
+            }
+            
+            @media (max-width: 1080px) {
+                .over {
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                    font-size: 25px;
+                    gap: 5px;
+                    top: 30px;
+                    width: 95%;
+                }
+            }
+        
